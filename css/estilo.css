@@ -7,3 +7,21 @@ header{
     display: flex;
     justify-content: space-evenly;
 }
+.hero{
+    background-color: beige;
+}
+.seccionDos{
+    background-color: aquamarine;
+}
+.miportfolio{
+    background-color: blue;
+}
+.experto{
+    background-color: burlywood;
+}
+.clientes{
+    background-color: bisque;
+}
+.contacto{
+    background-color: azure;
+}
