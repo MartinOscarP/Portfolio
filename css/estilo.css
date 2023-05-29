@@ -1,17 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/acumin-pro');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Acumin Pro', sans-serif;
+                                                
+}
+main{
+    width: 90%;
+    margin: 0 auto;
 }
 header{
-    background-color: aqua;
+    background-color: #1b213b;
     display: flex;
     justify-content: space-evenly;
+    height: 10vh;
+    color: white;
+    align-items: center;
 }
+header a{
+    color: white;
+    margin: 0 3em;
+}
+header p{
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.bheader{
+    width: 15em;
+    height: 3.5em;
+    border-radius: 18px;
+    background-color: rgb(210, 30, 165);
+    color: white;
+    font-size: 0.8em;
+    align-items: center;
+    border: transparent;
+}
+
 .hero{
     background-color: beige;
+    display: flex;
+    color: white;
+}
+.contienehero{
+    margin: 2% 2%;
+    width: 50%;
+}
+.contienehero h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+.blearn{
+    width: 15em;
+    height: 3.5em;
+    border-radius: 18px;
+    background-color: rgb(210, 30, 165);
+    color: white;
+    font-size: 0.8em;
+    align-items: center;
+    border: transparent;
+    margin: 5% 0%;
 }
 .seccionDos{
     background-color: aquamarine;
+    display: flex;
+    color: white;
+}
+.imgf1{
+   width: 30em;
+   height: 25em;
+
 }
 .miportfolio{
     background-color: blue;
